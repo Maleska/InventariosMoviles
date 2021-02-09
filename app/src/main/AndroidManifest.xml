@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.consulsoftware.inventariosmoviles">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/inventarioico"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/inventarioico"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InventariosMoviles">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.InventariosMoviles.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu_activity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main" />
+        <activity android:name=".entregacliente_activity"
+            android:screenOrientation="portrait"
+            android:label="Entrega de cliente"></activity>
+        <activity android:name=".EntregaCaptura_LayOut"
+            android:screenOrientation="portrait"
+            android:label="Captura"></activity>
+        <activity android:name=".orden_de_Venta_Activity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".captura_activity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".nuevaentrada_layout"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".entradamercancia_layout"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".enviarsap_layout"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".buscador_layout"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".CapturarEntradaMercancia_LayOut"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".detalleEntrada_layOut"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".CapturaEntrada_LayOut"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".capturaArticulo_LayOut"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".buscadorArticulo_LayOut"
+            android:screenOrientation="portrait"></activity>
+
+
+
+
+
+
+
+
+           </application>
+
+</manifest>
